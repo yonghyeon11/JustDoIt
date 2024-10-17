@@ -13,6 +13,7 @@
   import TodoInput from './components/TodoInput.vue'
   import TodoList from './components/TodoList.vue'
   import TodoFooter from './components/TodoFooter.vue'
+  
 
   export default {
 
@@ -56,9 +57,15 @@
 </script>
 
 <style>
+
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Nanum+Pen+Script&display=swap');
+
   body{
     text-align: center;
     background-color: whitesmoke;
+    font-family: "Nanum Pen Script", cursive;
+    font-weight: 400;
+    font-style: normal;
   }
   input{
     border-style: groove;

@@ -58,6 +58,9 @@
 </script>
 
 <style >
+
+    @import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Nanum+Pen+Script&display=swap');
+
     input:focus {
         outline: none;
     }
@@ -75,6 +78,9 @@
         width: 80%;
         height: inherit;
         text-align: center;
+        font-family: "Nanum Pen Script", cursive;
+        font-weight: 400;
+        font-style: normal;
     }
     .addContainer{
         float: right;
