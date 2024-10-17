@@ -1,0 +1,24 @@
+<template>
+    <header>
+        <h1>Just Do It!!</h1>
+    </header>
+</template>
+
+
+<script>
+    export default{
+
+    }
+</script>
+
+<style>
+    h1{
+        color: #2f3b52;
+        font-weight: 900;
+        margin: 2.5rem 0 1.5rem 0;
+    }
+    header{
+        width: 50%;
+        margin: 0 auto;;
+    }
+</style>
